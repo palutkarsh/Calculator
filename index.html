@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/calculator-gradient-72.png">
+</head>
+<body>
+
+    <div class="topnav">
+        <h2 id="heading">Calculator</h2>
+        <button id="darkMode">Dark Mode</button>
+      </div>
+
+    <div id="main">
+        <div id="display">
+            <p id="initial-display"></p>
+        </div>
+
+        <div id="keypad">
+            
+            <button class="keypad-btn" id="clear" data-value="AC">AC</button>
+            <button class="keypad-btn" id="bracket" data-value="()">()</button>
+            <button class="keypad-btn" id="divide" data-value="/">/</button>
+
+            <button class="keypad-btn" id="btn-7" data-value="7">7</button>
+            <button class="keypad-btn" id="btn-8" data-value="8">8</button>
+            <button class="keypad-btn" id="btn-9" data-value="9">9</button>
+            <button class="keypad-btn" id="multiply" data-value="*">X</button>
+
+            <button class="keypad-btn" id="btn-4" data-value="4">4</button>
+            <button class="keypad-btn" id="btn-5" data-value="5">5</button>
+            <button class="keypad-btn" id="btn-6" data-value="6">6</button>
+            <button class="keypad-btn" id="subtract" data-value="-">-</button>
+
+            <button class="keypad-btn" id="btn-1" data-value="1">1</button>
+            <button class="keypad-btn" id="btn-2" data-value="2">2</button>
+            <button class="keypad-btn" id="btn-3" data-value="3">3</button>
+            <button class="keypad-btn" id="add" data-value="+">+</button>
+
+            <button class="keypad-btn" id="btn-0" data-value="0">0</button>
+            <button class="keypad-btn" id="decimal"data-value=".">.</button>
+            <button class="keypad-btn" id="backspace" data-value="⌫">⌫</button>            
+            <button class="keypad-btn" id="result" data-value="=">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
